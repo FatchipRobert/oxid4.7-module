@@ -195,18 +195,6 @@
             [{assign var="blWhite" value="2"}]
             [{/if}]
             [{/foreach}]
-            <tr>
-                <td valign="top" class="[{$listclass}]">&nbsp;</td>
-                <td valign="top" class="[{$listclass}]">&nbsp;</td>
-                <td valign="top" class="[{$listclass}]">&nbsp;</td>
-                <td valign="top" class="[{$listclass}]">&nbsp;</td>
-                <td valign="top" class="[{$listclass}]">&nbsp;</td>
-                <td valign="top" class="[{$listclass}]">[{$pi_total_amount|number_format:2:",":""}] [{$article.currency}]</td>
-                <td valign="top" class="[{$listclass}]">&nbsp;</td>
-                <td valign="top" class="[{$listclass}]">&nbsp;</td>
-                <td valign="top" class="[{$listclass}]">&nbsp;</td>
-                <td valign="top" class="[{$listclass}]">&nbsp;</td>
-            <tr/>
         </table>
         <div id="waitingWheel" class="popup" style="visibility:hidden;background: none repeat scroll 0 0 #FFFFFF;border: 1px solid #000000;display: block; height: 150px;left: 50%;margin-left: -135px;margin-top: -75px; padding: 10px;position: fixed;top: 50%;width: 270px;z-index: 2000;">
             <p>Bitte warten, Ihre Anfrage wird gerade &uuml;berpr&uuml;ft. Schlie&szlig;en Sie diese Seite nicht und klicken Sie nicht "Reload" bis die &Uuml;berpr&uuml;fung abgeschlossen ist. Dies wird ca. 10 Sekunden dauern.</p>
